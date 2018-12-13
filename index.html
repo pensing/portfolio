@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<!-- Hier komen de dingen die je niet wilt tonen op de webpagina -->
+
+<title>MySite</title>
+
+<meta charset="utf-8">
+<!-- Hier komt de overige meta -->
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+<link rel="stylesheet" href="portfolio.css">
+<!-- Hier komen de overige stylesheet links -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+<link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
+<!-- Bootstrap CSS -->
+<!-- link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" -->
+
+<script src='portfolio.js'></script>
+<!-- Hier komen de overige javascript links -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+<!-- Hier komt alles wat je wilt tonen op de webpagina -->
+
+<!-- Header -->
+<header style="height: 60vh; min-width: 100%;">
+<h1>Portfolio</h1>
+<h3>van</h3>
+<h2>Paul Ensing</h2>
+<br />
+</header>
+
+<!-- Buttons om te kiezen tussen list of grid view -->
+<section class="sticky-section" style="height: 40vh;">
+<div style="width: 100%; text-align: center;">
+<a href="#projects"><button class="button list-button" onclick="listView()"><i class="fas fa-list-ul" style="font-size:32px;"></i></button></a> 
+<a href="#projects"><button class="button grid-button" onclick="gridView()"><i class="fa fa-th-large" style="font-size:32px;"></i></button></a> 
+</div>
+</section>
+
+<!-- projectitems -->
+<section class="items-section" id="projects">
+<div class="row">
+  <div class="column" style="background-color:white;">
+  <img src="images/leerplan.png" width="100%" />
+  <div class="overlay overlaygreen">
+    <h2 class="itemcapwhite">Leerplan</h2>
+	<div class="divtext">
+	Opdrachtgever: CodeGorilla<br /><br />
+	HTML, CSS, Javascript
+	</div>
+	<div class="linkdiv">
+	<a class="link greenlink" href="http://www.ensign4/leerplan" target="_blank">Bezoek de website</a>
+	</div>
+  </div>
+    <h2 class="itemcapgreen">Leerplan</h2>
+  </div>
+  <div class="column" style="background-color:white">
+  <img src="images/cv.png" width="100%" />
+  <div class="overlay overlayblue">
+    <h2 class="itemcapwhite">CV</h2>
+	<div class="divtext">
+	Opdrachtgever: CodeGorilla<br /><br />
+	HTML, CSS, Javascript
+	</div>
+	<div class="linkdiv">
+	<a class="link bluelink" href="http://www.ensign4/cv" target="_blank">Bezoek de website</a>
+	</div>
+  </div>
+    <h2 class="itemcapblue">CV</h2>
+  </div>
+</div>
+
+<div class="row">
+  <div class="column" style="background-color:white;">
+  <img src="images/emos.png" width="100%" />
+  <div class="overlay overlaygreen">
+    <h2 class="itemcapwhite">EMOS</h2>
+	<div class="divtext">
+	Opdrachtgever: r.k.s.v. EMOS<br /><br />
+	HTML, CSS, PHP, Javascript, Wordpress
+	</div>
+	<div class="linkdiv">
+	<a class="link greenlink" href="http://www.emos" target="_blank">Bezoek de website</a>
+	</div>
+  </div>
+    <h2 class="itemcapgreen">EMOS</h2>
+  </div>
+  <div class="column" style="background-color:white;">
+  <div class="overlay overlayblue">
+    <h2 class="itemcapwhite">BDL</h2>
+	<div class="divtext">
+	Opdrachtgever: Autobedrijf Bert de Leeuw<br /><br />
+	HTML, CSS, Artisteer, Wordpress
+	</div>
+	<div class="linkdiv">
+	<a class="link bluelink" href="http://www.bertdeleeuw" target="_blank">Bezoek de website</a>
+	</div>
+  </div>
+  <img src="images/bdl.png" width="100%" />
+    <h2 class="itemcapblue">BDL</h2>
+  </div>
+</div>
+
+<div class="row">
+  <div class="column" style="background-color:white;">
+  <img src="images/ensign4.png" width="100%" />
+  <div class="overlay overlaygreen">
+    <h2 class="itemcapwhite">ENSIGN4</h2>
+	<div class="divtext">
+	Opdrachtgever: Me,Myself and I<br /><br />
+	HTML, CSS, Themler
+	</div>
+	<div class="linkdiv">
+	<a class="link greenlink" href="http://www.ensign4" target="_blank">Bezoek de website</a>
+	</div>
+  </div>
+    <h2 class="itemcapgreen">ENSIGN4</h2>
+  </div>
+  <div class="column" style="background-color:white;">
+  <div class="overlay overlayblue">
+    <h2 class="itemcapwhite">EMOS 100Jaar</h2>
+	<div class="divtext">
+	Opdrachtgever: r.k.s.v. EMOS<br /><br />
+	HTML, CSS, Themler, Wordpress
+	</div>
+	<div class="linkdiv">
+	<a class="link bluelink" href="http://www.emos.nl/100jaar" target="_blank">Bezoek de website</a>
+	</div>
+  </div>
+  <img src="images/ensign4.png" width="100%" />
+    <h2 class="itemcapblue">ENSIGN4</h2>
+  </div>
+</div>
+</section>
+
+
+</body>
+
+</html>
